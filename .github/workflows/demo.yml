@@ -35,9 +35,9 @@ jobs:
 
     - name: Format with black
       run: |
-        black *.py tests/
+        black *.py test/*.py
 
     - name: Run tests
       run: |
-        pytest tests/
+        pytest
     
