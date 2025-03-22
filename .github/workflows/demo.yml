@@ -29,8 +29,7 @@ jobs:
         python -m pip install --upgrade pip
         pip install -r requirements.txt
 
-    - name: Lint with flake8
-      if: false
+    - name: Lint with pylint
       run: |
         pylint .
 
